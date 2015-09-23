@@ -257,7 +257,7 @@ function createBall( x, y ) {
 	var element = document.createElement("canvas");
 	var yj_ctx = element.getContext('2d'),
     yj_img = new Image();
-    var yj_random = parseInt(Math.random()*4+1)
+    var yj_random = parseInt(Math.random()*3+1)
     yj_img.src="image/psba"+yj_random+".jpg";
     yj_img.style.cssText="border-radius:600px;width:600px;height:50%;margin-left: -95px;margin-top: -89px;"
     yj_img.onload = function(){
